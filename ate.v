@@ -8,10 +8,10 @@ reg [7:0] threshold;
 reg bin;
 
 reg [7:0] data [63:0];	
-reg [6:0]counter; //reg [5:0]counter;
+reg [6:0]counter; 
 reg [7:0]min0;
-reg [7:0]max0; //min, max is 16進位
-reg [4:0]block;  //reg [6:0] block_count;  block is 24(01100)
+reg [7:0]max0; 
+reg [4:0]block; 
 integer i;	
 	
 	always@(posedge clk or posedge reset)
