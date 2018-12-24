@@ -49,7 +49,7 @@ integer i;
 	begin
 		if(reset)
 		begin
-			for(i = 0; i < 65; i = i + 1)
+			for(i = 0; i < 64; i = i + 1)
 			begin
 				data[i] <= 8'd0;
 			end
